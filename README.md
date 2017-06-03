@@ -10,3 +10,7 @@ ali standard code style
 网络上搜了一下，目前有默认的sun和google的
 
 所以。。规则还是需要自己写
+
+> 现在的checkstyle.xml是网上随便找的。。。规则还没写好😂
+
+欢迎添加
