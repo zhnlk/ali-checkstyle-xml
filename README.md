@@ -13,4 +13,6 @@ ali standard code style
 
 > 现在的checkstyle.xml是网上随便找的。。。规则还没写好😂
 
+关于checkstyle的所有属性，详见：http://checkstyle.sourceforge.net/
+
 欢迎添加

@@ -12,6 +12,7 @@
     -->
     <!-- 检查每个包中是否有java注释文件，默认有package-info.java -->
     <!-- <module name="JavadocPackage"/> -->
+
     <!-- 检查文件是否以一个空行结束 -->
     <module name="NewlineAtEndOfFile"/>
 
@@ -82,7 +83,7 @@
         <module name="ArrayTypeStyle"/>
         <!-- 检查方法名、构造函数、catch块的参数是否是final的 -->
         <!-- <module name="FinalParameters"/> -->
-        <!-- 检查long型定义是否有大写的“L” -->
+        <!-- 检查long型定义是否有大写的“L” (二。2)-->
         <module name="UpperEll"/>
 
 
@@ -189,8 +190,9 @@
         <module name="IllegalInstantiation"/>
         <!-- 检查子表达式中是否有赋值操作 -->
         <module name="InnerAssignment"/>
-        <!-- 检查是否有"魔术"数字 -->
+        <!-- 检查是否有"魔术"数字 （二。1）-->
         <module name="MagicNumber">
+            <!--默认-1,0,1,2不是魔法数字-->
             <property name="ignoreNumbers" value="0, 1"/>
             <property name="ignoreAnnotation" value="true"/>
         </module>
