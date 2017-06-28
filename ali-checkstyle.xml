@@ -12,7 +12,6 @@
     -->
     <!-- 检查每个包中是否有java注释文件，默认有package-info.java -->
     <!-- <module name="JavadocPackage"/> -->
-
     <!-- 检查文件是否以一个空行结束 -->
     <module name="NewlineAtEndOfFile"/>
 
@@ -79,11 +78,11 @@
         <module name="ConstantName" />
 
         <!-- 定义检查 -->
-        <!-- 检查数组类型定义的样式 (一。7)默认为java style,String[] args-->
+        <!-- 检查数组类型定义的样式 -->
         <module name="ArrayTypeStyle"/>
         <!-- 检查方法名、构造函数、catch块的参数是否是final的 -->
         <!-- <module name="FinalParameters"/> -->
-        <!-- 检查long型定义是否有大写的“L” (二。2)-->
+        <!-- 检查long型定义是否有大写的“L” -->
         <module name="UpperEll"/>
 
 
@@ -190,9 +189,8 @@
         <module name="IllegalInstantiation"/>
         <!-- 检查子表达式中是否有赋值操作 -->
         <module name="InnerAssignment"/>
-        <!-- 检查是否有"魔术"数字 （二。1）-->
+        <!-- 检查是否有"魔术"数字 -->
         <module name="MagicNumber">
-            <!--默认-1,0,1,2不是魔法数字-->
             <property name="ignoreNumbers" value="0, 1"/>
             <property name="ignoreAnnotation" value="true"/>
         </module>
@@ -209,7 +207,7 @@
         <!-- 检查只有private构造函数的类是否声明为final -->
         <module name="FinalClass"/>
         <!-- 检查工具类是否有putblic的构造器 -->
-        <!--<module name="HideUtilityClassConstructor"/>-->
+        <module name="HideUtilityClassConstructor"/>
         <!-- 检查接口是否仅定义类型 -->
         <module name="InterfaceIsType"/>
         <!-- 检查类成员的可见度 -->
@@ -217,7 +215,7 @@
 
 
         <!-- 其他检查 -->
-         <!--文件中使用了System.out.print等-->
+        <!-- 文件中使用了System.out.print等
         <module name="GenericIllegalRegexp">
             <property name="format" value="System\.out\.print"/>
         </module>
@@ -226,7 +224,7 @@
         </module>
         <module name="GenericIllegalRegexp">
             <property name="format" value="printStackTrace"/>
-        </module>
+        </module>-->
 
         <!-- 代码质量 -->
         <!-- 圈复杂度
