@@ -1,6 +1,8 @@
 # ali-checkstyle-xml
 ali standard code style
 
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+
 #### 阿里标准的java规范
 
 最近升级了1.2.0，但总是这么多规则，还是记不住
