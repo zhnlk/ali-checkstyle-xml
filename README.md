@@ -15,6 +15,8 @@ ali standard code style
 
 > 现在的checkstyle.xml是网上随便找的。。。规则还没写好😂
 
+> 如果你用的是IEDA,可以在plugins中安装google-java-format，这个插件
+
 关于checkstyle的所有属性，详见：http://checkstyle.sourceforge.net/
 
 欢迎添加
