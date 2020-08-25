@@ -4,7 +4,7 @@ ali standard code style
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 #### 2020-08-25 更新
-如果用IDEA的话，官方的插件是这个：[!Alibaba Java Coding Guidelines](https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines)
+如果用IDEA的话，官方的插件是这个：[Alibaba Java Coding Guidelines](https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines)
 
 
 #### 阿里标准的java规范
