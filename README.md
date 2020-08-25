@@ -3,6 +3,10 @@ ali standard code style
 
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
+#### 2020-08-25 更新
+如果用IDEA的话，官方的插件是这个：[!Alibaba Java Coding Guidelines](https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines)
+
+
 #### 阿里标准的java规范
 
 最近升级了1.2.0，但总是这么多规则，还是记不住
@@ -15,7 +19,7 @@ ali standard code style
 
 > 现在的checkstyle.xml是网上随便找的。。。规则还没写好😂
 
-> 如果你用的是IEDA,可以在plugins中安装google-java-format，这个插件
+> 如果你用的是IDEA,可以在plugins中安装google-java-format，这个插件
 
 关于checkstyle的所有属性，详见：http://checkstyle.sourceforge.net/
 
